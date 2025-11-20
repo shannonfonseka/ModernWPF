@@ -1,0 +1,3 @@
+﻿Pour publication sur le serveur LC2L Informatique, en ligne de commande administrateur ou PowerShel Développeur (Changer le nom du package si besoin)
+
+dotnet nuget push -s https://nuget.lc2l-informatique.eus/v3/index.json -k 14hfrt*Qlm "D:\Projets_C#\ModernWPF Net6-7\ModernWPF\ModernWpf.Controls\bin\Release\ModernWpfUI_Net6.1.0.4.nupkg" 

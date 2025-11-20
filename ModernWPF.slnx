@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Folder Name="/Sample/">
+    <Project Path="ModernWPF/samples/SamplesCommon/SamplesCommon.csproj" />
+  </Folder>
+  <Project Path="ModernWPF/ModernWpf.Controls/ModernWpf.Controls.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+  <Project Path="ModernWPF/ModernWpf.SampleApp/ModernWpf.SampleApp.csproj" />
+  <Project Path="ModernWPF/ModernWpf/ModernWpf.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+</Solution>
