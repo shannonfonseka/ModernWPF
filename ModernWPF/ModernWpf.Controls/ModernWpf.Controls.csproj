@@ -6,7 +6,7 @@
     <NeutralLanguage>en-US</NeutralLanguage>
     <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);GetDocumentationFile</TargetsForTfmSpecificBuildOutput>
     <NuspecFile>$(MSBuildThisFileDirectory)ModernWpfUI.nuspec</NuspecFile>
-    <PackageId>ModernWpfUI_Net6</PackageId>
+    <PackageId>ModernWpfUI</PackageId>
     <LangVersion>latest</LangVersion>
     <Platforms>AnyCPU;x64</Platforms>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
@@ -15,7 +15,7 @@
     <PackageProjectUrl>https://www.lc2l-informatique.fr</PackageProjectUrl>
     <ApplicationIcon>_Assets\lc2l-logo.ico</ApplicationIcon>
     <Copyright>LC2L Informatique</Copyright>
-    <Description>ModernWPF for NET6 and Net7 Preview</Description>
+    <Description>ModernWPF for NET10</Description>
     <PackageIcon>lc2l-logo.png</PackageIcon>
     <AssemblyVersion>1.0.4.0</AssemblyVersion>
     <FileVersion>1.0.4.0</FileVersion>
